@@ -12,6 +12,8 @@
         <module>threads</module>
         <module>streams</module>
         <module>lambda</module>
+        <module>patterns</module>
+        <module>patterns</module>
     </modules>
 
     <properties>
