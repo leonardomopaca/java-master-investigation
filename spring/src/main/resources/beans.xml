@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <bean id="sim" class="com.spring.components.Jio"></bean>
+        <bean id="tyre1Bean" class="com.spring.engine.components.Tyres">
+                <property name="name" value="MRF">
+                </property>
+                <property name="place" value="India">
+                </property>
+                <property name="message" value="Make in India">
+                </property>
+        </bean>
+
+        <bean id="ToyotaBean" class="com.spring.engine.components.ToyotaEngine">
+                <property name="company" value="Toyota">
+                </property>
+
+                <property name="cost" value="300000.00">
+                </property>
+
+        </bean>
+
+        <bean id="tyre2Bean" class="com.spring.engine.components.Tyres">
+                <property name="name" value="TVS">
+                </property>
+
+                <property name="place" value="India">
+                </property>
+
+                <property name="message" value="Make in India">
+                </property>
+
+        </bean>
+
+        <bean id="InjectwithSetter" class="com.spring.engine.components.Vehicle">
+                <property name="engine" ref="ToyotaBean">
+                </property>
+
+                <property name="tyre" ref="tyre1Bean">
+                </property>
+
+        </bean>
+
+        <bean id="InjectwithConstructor" class="com.spring.engine.components.Vehicle">
+                <property name="engine" ref="ToyotaBean">
+                </property>
+                <property name="tyre" ref="tyre2Bean">
+                </property>
+        </bean>
+</beans>

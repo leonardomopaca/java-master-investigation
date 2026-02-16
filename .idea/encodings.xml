@@ -3,10 +3,15 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/dynamic-programming/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dynamic-programming/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/generics/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/generics/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lambda/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lambda/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/neetcode/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/neetcode/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/patterns/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/patterns/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/streams/src/main/java" charset="UTF-8" />
